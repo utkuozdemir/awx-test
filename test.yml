@@ -4,4 +4,6 @@
   tasks:
     - name: Print all host vars
       debug:
-        msg: "On branch bbb: {{ hostvars['localhost'] }}"
+        msg: 
+          - On branch bbb
+          - "{{ hostvars['localhost'] }}"
