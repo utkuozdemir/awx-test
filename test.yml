@@ -5,5 +5,5 @@
     - name: Print all host vars
       debug:
         msg: 
-         - On branch master
-         - "{{ hostvars['localhost'] }}"
+          - On branch master
+          - "{{ hostvars['localhost'] }}"
