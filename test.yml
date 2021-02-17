@@ -1,0 +1,7 @@
+---
+- name: Debug
+  hosts: localhost
+  tasks:
+    - name: Print all host vars
+      debug:
+        msg: "{{ hostvars['localhost'] }}"
