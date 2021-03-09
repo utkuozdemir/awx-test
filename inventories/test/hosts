@@ -1,1 +1,4 @@
 localhost ansible_connection=local
+
+[testgroup]
+localhost2 ansible_connection=local
