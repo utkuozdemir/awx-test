@@ -1,2 +1,3 @@
 ---
-test_group_var: base
+test_group_var: base_group_var
+base_group_var: placeholder

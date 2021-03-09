@@ -1,0 +1,3 @@
+---
+test_host_var: region_host_var
+region_host_var: placeholder

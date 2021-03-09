@@ -1,0 +1,3 @@
+---
+test_host_var: base_host_var
+base_host_var: placeholder
