@@ -1,2 +1,3 @@
 # dummy
-localhost
+[all_hosts:children]
+all
