@@ -1,9 +1,20 @@
 ---
-- name: Debug
-  hosts: localhost
+- name: Debug1
+  hosts: host1
   tasks:
-    - name: Print all host vars
+    - name: host1
       debug:
-        msg: 
-          - On branch master
-          - "{{ hostvars['localhost'] }}"
+        msg:
+          - "test_host_var: {{ test_host_var | default('UNDEFINED') }}"
+          - "base_host_var: {{ base_host_var | default('UNDEFINED') }}"
+          - "region_host_var: {{ region_host_var | default('UNDEFINED') }}"
+
+- name: Debug2
+  hosts: host2
+  tasks:
+    - name: host2
+      debug:
+        msg:
+          - "test_group_var: {{ test_group_var | default('UNDEFINED') }}"
+          - "base_group_var: {{ base_group_var | default('UNDEFINED') }}"
+          - "region_group_var: {{ region_group_var | default('UNDEFINED') }}"

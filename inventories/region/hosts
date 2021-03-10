@@ -1,4 +1,4 @@
-host1 ansible_connection=local
+host1 ansible_connection=local ansible_python_interpreter=auto_silent
 
 [testgroup]
-host2 ansible_connection=local
+host2 ansible_connection=local ansible_python_interpreter=auto_silent
