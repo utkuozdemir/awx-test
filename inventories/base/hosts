@@ -1,2 +1,4 @@
 # dummy
-[testgroup]
+[base]
+host1
+host2
