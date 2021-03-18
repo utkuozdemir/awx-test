@@ -1,13 +1,13 @@
 ---
-- name: Debug1
-  hosts: host1
-  tasks:
-    - name: host1
-      debug:
-        msg:
-          - "test_host_var: {{ test_host_var | default('UNDEFINED') }}"
-          - "base_host_var: {{ base_host_var | default('UNDEFINED') }}"
-          - "region_host_var: {{ region_host_var | default('UNDEFINED') }}"
+#- name: Debug1
+#  hosts: host1
+#  tasks:
+#    - name: host1
+#      debug:
+#        msg:
+#          - "test_host_var: {{ test_host_var | default('UNDEFINED') }}"
+#          - "base_host_var: {{ base_host_var | default('UNDEFINED') }}"
+#          - "region_host_var: {{ region_host_var | default('UNDEFINED') }}"
 
 - name: Debug2
   hosts: host2
